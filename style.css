@@ -1,0 +1,171 @@
+:root {
+  --bgColor: #072e74;
+  --textColor: #a4c100;
+  --titleColor: #fff8d8;
+  --titleFontSize: 5em;
+  --fontSize: 2em;
+}
+
+body {
+  background-color: var(--titleColor);
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(imgs/pexels-eberhard-grossgasteiger-443446.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--textColor);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--titleColor);
+}
+
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: var(--textColor);
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: var(--titleColor);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item:last-child {
+  float: right;
+}
+
+.nav-link:hover {
+  background-color: var(--bgColor);
+}
+
+.todo-title {
+  text-align: center;
+  color: var(--bgColor);
+  border: solid var(--bgColor) 2px;
+  border-radius: 1%;
+  margin: 5rem 35% 5rem 35%;
+  background-color: var(--titleColor);
+}
+
+.main {
+  color: var(--textColor);
+  width: 100%;
+}
+
+.input-label {
+  background-color: var(--titleColor);
+  border: solid var(--bgColor) 2px;
+  border-radius: 1px;
+  padding: 1%;
+}
+
+.todo-form {
+  display: block;
+  text-align: center;
+}
+
+.todo-input {
+  border: solid var(--bgColor) 2px;
+  font-size: 16px;
+  padding: 12px 28px;
+  background-color: var(--titleColor);
+  color: var(#000);
+  font-size: 1em;
+  margin: 1rem 0 1rem 0;
+}
+
+.todo-button {
+  border: solid var(--bgColor) 2px;
+  padding: 12px 28px;
+  background-color: var(--bgColor);
+  color: var(--titleColor);
+  font-size: 1em;
+  margin: 1rem 0 1rem 0;
+}
+
+.todo-button:hover {
+  color: var(--titleColor);
+  background-color: var(--textColor);
+  transition-delay: 50ms;
+  border: solid var(--textColor) 1px;
+}
+
+.todo-container {
+  text-align: center;
+  width: 33.3%;
+  margin: 0 33.3%;
+  background-color: var(--titleColor);
+  border: solid var(--bgColor) 2px;
+  border-radius: 1px;
+  padding: 1%;
+}
+
+.todo-list {
+  display: inline;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.todo-complete {
+  list-style: none;
+}
+
+.todo-item {
+  display: inline;
+  border: solid var(--textColor) 1.2px;
+  font-size: 0.8em;
+  padding: 10px 14px;
+  background-color: var(--textColor);
+  color: var(--titleColor);
+  margin: 1rem 0rem 1rem 0.5rem;
+}
+
+.trash-btn,
+.checked-btn {
+  border: solid var(--bgColor) 1px;
+  font-size: 0.8em;
+  padding: 10px 14px;
+  background-color: var(--bgColor);
+  color: var(--titleColor);
+  margin: 1rem 0rem 1rem 0.5rem;
+}
+
+.trash-btn:hover,
+.checked-btn:hover {
+  color: var(--titleColor);
+  background-color: var(--textColor);
+  transition-delay: 50ms;
+  border: solid var(--textColor) 0.5px;
+}
+
+.footer-title {
+  color: var(--bgColor);
+}
