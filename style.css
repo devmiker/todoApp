@@ -80,6 +80,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .input-label {
+  width: 33.3%;
   background-color: var(--titleColor);
   border: solid var(--bgColor) 2px;
   border-radius: 1px;
