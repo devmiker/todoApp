@@ -90,6 +90,7 @@ body::-webkit-scrollbar-thumb {
 .todo-form {
   display: block;
   text-align: center;
+  margin: 2rem;
 }
 
 .todo-input {
@@ -99,7 +100,7 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--titleColor);
   color: var(#000);
   font-size: 1em;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 1rem;
 }
 
 .todo-button {
