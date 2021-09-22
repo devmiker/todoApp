@@ -90,7 +90,6 @@ body::-webkit-scrollbar-thumb {
 .todo-form {
   display: block;
   text-align: center;
-  margin: 2rem;
 }
 
 .todo-input {
