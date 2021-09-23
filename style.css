@@ -7,6 +7,7 @@
 }
 
 body {
+  min-height: 100%;
   background-color: var(--titleColor);
   margin: 0;
   padding: 0;
@@ -69,6 +70,7 @@ body::-webkit-scrollbar-thumb {
 .main {
   color: var(--textColor);
   width: 100%;
+  margin: 0 0 10rem 0;
 }
 
 /* To Do List */
